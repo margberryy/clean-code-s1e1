@@ -35,14 +35,14 @@ body {
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 input,button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -141,14 +141,14 @@ button.delete .remove-img:hover {
 
 /* Edit Task */
 .edit-task.input[type="text"] {
-    display:none
+    display: none
 }
 
 .edit-mode .input[type="text"] {
-    display:inline-block;
+    display: inline-block;
     width:224px
 }
 
 .edit-mode .label {
-    display:none;
+    display: none;
 }
