@@ -100,7 +100,7 @@ button{
 }
 
 /* Task list */
-.li {
+.task-list__item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -108,23 +108,23 @@ button{
     justify-content: space-between;
     align-items: center;
 }
-.li.li-item {
+.task-list__item.li-item {
     vertical-align: middle;
 }
 
-.li > .input[type="checkbox"] {
+.task-list__item > .input[type="checkbox"] {
     margin: 0 10px;
 }
-.li > .label {
+.task-list__item > .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.li > .input[type="text"] {
+.task-list__item > .input[type="text"] {
     width: 226px;
 }
-.li > .button.delete:hover {
+.task-list__item > .button.delete:hover {
     color: #cf2323;
 }
 .button.delete .remove-img {
