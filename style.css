@@ -17,7 +17,7 @@
     font-family: fantasy, cursive;
   }
   
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
 
     .header { text-align: center;
     }
@@ -31,7 +31,7 @@
   .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
   }
   .task-row-wrapper {
     display: flex;
@@ -62,7 +62,7 @@
   }
   /* Heading */
   h3,
-  label[for="new-task"] {
+ .new-task-label{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -88,7 +88,7 @@
   }
   
   /* New Task */
-  label[for="new-task"] {
+  .new-task-label {
     display: block;
     margin: 0 0 20px;
   }
@@ -125,7 +125,7 @@
   li >  input[type="text"] {
     width: 226px;
   }
-  li > .delete: hover {
+  li > .delete:hover {
     color: #cf2323;
   }
   .delete-img {
